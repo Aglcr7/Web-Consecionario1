@@ -1,0 +1,20 @@
+[
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "año": 2021,
+        "precio": 75000000
+    },
+    {
+        "marca": "Mazda",
+        "modelo": "CX-30",
+        "año": 2022,
+        "precio": 110000000
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "año": 2020,
+        "precio": 65000000
+    }
+]

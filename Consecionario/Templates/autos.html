@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Autos en Venta</title>
+    <link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Listado de Autos</h2>
+        <ul>
+            {% for auto in autos %}
+                <li>
+                    <strong>{{ auto.marca }} {{ auto.modelo }}</strong> - 
+                    Año <strong>{{ auto.año }}</strong> - 
+                    <span style="color: green;">${{ "{:,}".format(auto.precio) }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+        <a class="btn" href="/">Volver al inicio</a>
+    </div>
+</body>
+</html>
+
